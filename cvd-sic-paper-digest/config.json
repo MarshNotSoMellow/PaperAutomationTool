@@ -1,0 +1,57 @@
+{
+  "topic": "CVD Si/C anode material and microstructure of Si/C anode",
+  "topic_zh": "CVD Si/C 负极材料与 Si/C 负极微观结构",
+  "queries": [
+    "chemical vapor deposition silicon carbon anode",
+    "Si/C anode microstructure lithium-ion",
+    "silicon carbon composite anode lithium-ion",
+    "silicon carbon negative electrode CVD microstructure"
+  ],
+  "concept_groups": {
+    "silicon": [
+      "\\bsilicon\\b",
+      "\\bSi\\b",
+      "\\bSiOx?\\b",
+      "\\bSiOC\\b",
+      "silicon oxide",
+      "silicon oxycarbide"
+    ],
+    "carbon": [
+      "\\bSi[/-]C\\b",
+      "\\bSiC\\b",
+      "\\bsilicon[ /-]carbon\\b",
+      "\\bsilicon oxycarbide\\b",
+      "\\bcarbon (?:matrix|scaffold|precursor|composite|framework|coating|shell)\\b",
+      "\\b(?:porous|hard|soft|carbonaceous) carbon\\b"
+    ],
+    "anode": [
+      "\\banode\\b",
+      "negative electrode"
+    ]
+  },
+  "preference_terms": {
+    "CVD": [
+      "chemical vapor deposition",
+      "\\bCVD\\b"
+    ],
+    "Si/C 复合": [
+      "\\bSi[/-]C\\b",
+      "\\bsilicon[ /-]carbon\\b"
+    ],
+    "微观结构": [
+      "microstructure",
+      "micro-structure",
+      "morphology",
+      "porous",
+      "pore structure",
+      "closed pore",
+      "coating structure",
+      "interphase"
+    ]
+  },
+  "lookback_days": 14,
+  "max_papers": 6,
+  "openalex_per_query": 25,
+  "minimum_score": 68,
+  "model": "qwen2.5:3b-instruct-q4_K_M"
+}
